@@ -1,0 +1,148 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>React/Express Home</title>
+  </head>
+  <body>
+    <style>
+body {
+  font-family: sans-serif;
+}
+.message-container.left .title{
+  text-align: left;
+  color: #3952C3;
+}
+.message-container.right .title{
+  text-align: right;
+  color: #3952C3;
+}
+.message-bubble p{
+  margin: 8px 12px;
+}
+
+.login-wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+.login-container {
+    text-align: center;
+    width: 20em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -7em 0 0 -10em;
+}
+
+input {
+      display: block;
+      width: 100%;
+      border-radius: 3px;
+      border: none;
+      box-shadow: inset 0px 0px 2px #95979b;
+      padding: 0.7em;
+      margin-bottom: 1em;
+      font-weight: 100;
+      border: 1px solid #fff;
+    }
+
+    button {
+      display: block;
+      width: 11.4em;
+      background:   #02A499;
+      border: none;
+      border-radius: 3px;
+      color: #fff;
+      padding: 0.7em;
+      margin: 0 auto;
+    }    
+
+ .chat-room-container {
+  color: #fff;
+  padding: 1em 0em 1em 2em;
+}
+
+ 
+  .right img {
+    float: right;
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+    border-radius: 95%;
+    /*padding: 1em;*/
+}
+.hide {
+    display: none;
+  }
+  .right-panel-container {
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+  }
+  .right-panel-container input[type="text"] {
+    width: 70%;
+    float: left;
+  }
+
+  .message-container {
+  max-width: 50%;
+  clear: both;
+  float: left;
+  }
+  
+  .message-bubble {
+    display: inline-block;
+    background: #E2E4F7;
+    padding: 0.5em 0.9em 0.5em 0.9em;
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin-bottom: 0.4em;
+    margin-top: 1.1em;
+    line-height: 1.5em;
+    color:#3952C3
+  }
+
+  .red {
+    background: #EFF1F3;
+    color: #8a8787;
+  }
+
+  .hide {
+    display: none;
+  }
+
+
+.right {
+  float: right;
+}
+
+.chat-input-wrap {
+    float: left;
+    width: 100%;
+}
+.image-outer {
+  max-width: 30px;
+    float: left;
+    padding: 1em;
+}
+
+.right .image-outer {
+     float: right;
+    padding: 1em;
+}
+.time {
+    font-size: 11px;
+    margin: 0 auto;
+    text-align: center;
+    display: table;
+    color: #8a8787;
+}
+
+    </style>
+    <div id="app" />
+    <script src="public/client.min.js" type="text/javascript"></script>
+  </body>
+</html>
